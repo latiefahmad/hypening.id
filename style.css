@@ -21,7 +21,7 @@ main {
 }
 
 h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0;
   opacity: 0.9;
 }
@@ -31,7 +31,7 @@ nav {
   justify-content: space-between;
   align.item-holders: center;
   font-size: 0.8rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   flex: 1;
   max-width: 50%;
   margin-left: 10%;
@@ -61,7 +61,7 @@ button {
   cursor: pointer;
   box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 button:hover {
@@ -189,7 +189,7 @@ button:hover {
   font-size: 0.7rem;
   padding: 20px 2em;
   box-sizing: border-box;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .item-holder:nth-child(1) .item {
