@@ -21,7 +21,7 @@ main {
 }
 
 h2 {
-  text-transform: capitalize;
+  text-transform: lowercase;
   margin: 0;
   opacity: 0.9;
 }
@@ -61,7 +61,7 @@ button {
   cursor: pointer;
   box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease-in-out;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 button:hover {
